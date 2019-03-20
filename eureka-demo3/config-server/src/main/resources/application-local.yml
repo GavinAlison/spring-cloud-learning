@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+      config:
+        server:
+          native:
+            searchLocations: file:E:/workspace/spring-cloud-learning/eureka-demo3/config-repo/
+server:
+  port: 7001
+# git  management
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://gitee.com/huangdi_495/spring-cloud-config/
+#          searchPaths: config-repo
+#          username: username
+#          password: password

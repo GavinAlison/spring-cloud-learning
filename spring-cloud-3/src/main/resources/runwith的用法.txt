@@ -1,0 +1,59 @@
+1. runwith定义：
+    在类上定义注解，指定其测试运行器是哪个？
+
+2. 运行器Runner
+    就是运行测试用例的工具
+
+3. Junit包中的runner是什么？
+    在4.4之前， Junit4ClassRunner
+    4.4以及以后，BlockJunit4ClassRunner
+
+4. @RunWith(SpringJUnit4ClassRunner.class)
+    表明这个类中的测试用例需要使用SpringJUnit4ClassRunner类来执行
+
+5. @RunWith(Suite.class)
+   @Suite.SuiteClasses({ TestA.class, TestB.class, /*Any test class you want to run*/})
+   public class TestSuite {...}
+
+   @RunWith指定了Suite类，说明这个TestSuite类是一个套件。
+   通过@Suite.SuiteClasses指定了要执行的测试类（这些类中的所有用例都会执行）,
+   需要注意的是，这个TestSuite类本身用例则不会执行了（如上面的testPrint()方法）,
+
+6. SpringJUnit4ClassRunner
+    SpringJUnit4ClassRunner是JUnit's的BlockJUnit4ClassRunner类的一个常规扩展，
+    提供了一些spring测试环境上下文去规范JUnit测试，意味着TestContextManager和支持相关的类和注解
+
+7. SpringRunner
+    SpringRunner is an alias for the SpringJUnit4ClassRunner.
+
+8. SpringBootTest
+    注解制定了一个测试类运行了Spring Boot环境
+
+详见：
+1. https://my.oschina.net/itblog/blog/1550753?tdsourcetag=s_pctim_aiomsg
+2. https://www.jianshu.com/p/72b19e24a602
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
