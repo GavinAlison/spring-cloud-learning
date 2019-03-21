@@ -6,37 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-demo5" />
+        <module name="api-gateway" />
+        <module name="eureka-server" />
+        <module name="service-A" />
+        <module name="service-B" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
       <module name="computer-service" target="1.8" />
       <module name="Comsumer-a" target="1.8" />
-      <module name="config-client" target="1.8" />
-      <module name="config-client-1" target="1.8" />
-      <module name="config-server" target="1.8" />
-      <module name="eureka-demo" target="1.5" />
-      <module name="eureka-demo2" target="1.5" />
-      <module name="eureka-demo3" target="1.5" />
-      <module name="eureka-demo4" target="1.5" />
+      <module name="eureka-demo" target="8" />
+      <module name="eureka-demo2" target="8" />
+      <module name="eureka-demo3" target="8" />
       <module name="eureka-demo5" target="1.5" />
       <module name="eureka-feign" target="1.8" />
-      <module name="eureka-feign (1)" target="1.8" />
-      <module name="eureka-feign (2)" target="1.8" />
       <module name="eureka-feign(2)" target="1.8" />
       <module name="eureka-ribbon-hystrix" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server (1)" target="1.8" />
-      <module name="eureka-server (2)" target="1.8" />
       <module name="eureka-server-2" target="1.8" />
       <module name="Hello" target="1.8" />
       <module name="service-a" target="1.8" />
+      <module name="service-A" target="1.8" />
+      <module name="service-B" target="1.8" />
       <module name="spring-cloud-2" target="1.8" />
       <module name="spring-cloud-3" target="1.8" />
       <module name="spring-cloud-4" target="1.8" />
       <module name="spring-cloud-5" target="1.8" />
-      <module name="spring-cloud-config-server" target="1.8" />
-      <module name="spring-cloud-learning" target="1.5" />
+      <module name="spring-cloud-learning" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
