@@ -19,6 +19,9 @@
     <file url="file://$PROJECT_DIR$/eureka-demo5/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-demo5/service-A" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-demo5/service-B" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-demo6/config-client-1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-demo6/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-demo6/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-4" charset="UTF-8" />

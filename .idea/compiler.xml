@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="config-client-1" />
+        <module name="config-server" />
+        <module name="eureka-demo6" />
         <module name="eureka-server" />
         <module name="service-A" />
         <module name="service-B" />
@@ -23,12 +26,11 @@
       <module name="eureka-feign" target="1.8" />
       <module name="eureka-feign(2)" target="1.8" />
       <module name="eureka-ribbon-hystrix" target="1.8" />
-      <module name="eureka-server" target="1.8" />
       <module name="eureka-server (1)" target="1.8" />
       <module name="eureka-server-2" target="1.8" />
       <module name="Hello" target="1.8" />
-      <module name="service-a" target="1.8" />
       <module name="service-A" target="1.8" />
+      <module name="service-a" target="1.8" />
       <module name="service-B" target="1.8" />
       <module name="spring-cloud-2" target="1.8" />
       <module name="spring-cloud-3" target="1.8" />
